@@ -57,7 +57,7 @@ pipeline  {
            steps {
                echo " ============== starting gd server =================="
                sh '''
-               docker run -d --restart=always --name gd -p 80:8080 a1nna/gd
+               docker run -d --restart=always --name gd -p 80:8000 a1nna/gd
                '''
            }
         }
